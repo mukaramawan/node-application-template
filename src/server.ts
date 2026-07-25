@@ -1,8 +1,12 @@
 function helloWorld(msg: string) {
-    console.log('Hello, World!' + msg);
+    const name = {
+        name : "Mukaram"
+    };
+    console.log('Hello ' + name.name + ' ' + msg);
 }
 
-helloWorld('Hello Worlds!');
+helloWorld("Good Morning");
+
 
 // Steps Performed:
 // .gitignore
