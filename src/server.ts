@@ -1,18 +1,3 @@
-function helloWorld(msg: string) {
-    const name = {
-        name: 'Mukaram',
-    };
-    return name.name + ' ' + msg;
-    // console.log('Hello ' + name.name + ' ' + msg);
-}
+import { Config } from './config/index.js';
 
-helloWorld('Good Morning');
-
-// Steps Performed:
-// .gitignore
-// .nvmrc
-// npm init
-// npm i -D typescript
-// npx tsc --init
-// npx tsc
-// npm i -D @types/node
+console.log(`Server is running on port ${Config.PORT}`);
