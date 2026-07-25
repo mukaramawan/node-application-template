@@ -1,6 +1,6 @@
 function helloWorld(msg: string) {
     const name = {
-        name : "Mukaram"
+name : "Mukaram"
     };
     console.log('Hello ' + name.name + ' ' + msg);
 }
