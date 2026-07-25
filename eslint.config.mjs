@@ -18,7 +18,7 @@ export default defineConfig({
     },
     rules: {
         // 'no-console': 'error',
-        // 'dot-notation': 'error', //It can fix code
+        'dot-notation': 'error', //It can fix code
         // 'no-unused-vars': 'off',
         // '@typescript-eslint/no-unused-vars': ['error'],
     },

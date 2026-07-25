@@ -1,12 +1,11 @@
 function helloWorld(msg: string) {
     const name = {
-name : "Mukaram"
+        name: 'Mukaram',
     };
     console.log('Hello ' + name.name + ' ' + msg);
 }
 
-helloWorld("Good Morning");
-
+helloWorld('Good Morning');
 
 // Steps Performed:
 // .gitignore
