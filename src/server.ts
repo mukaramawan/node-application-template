@@ -2,7 +2,7 @@ function helloWorld(msg: string) {
     console.log('Hello, World!' + msg);
 }
 
-helloWorld("Hello Worlds!");
+helloWorld('Hello Worlds!');
 
 // Steps Performed:
 // .gitignore

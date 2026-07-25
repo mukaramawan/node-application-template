@@ -1,25 +1,28 @@
 {
-  "name": "authservice-mern",
-  "version": "1.0.0",
-  "description": "Auth Service",
-  "homepage": "https://github.com/mukaramawan/authservice-mern#readme",
-  "bugs": {
-    "url": "https://github.com/mukaramawan/authservice-mern/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mukaramawan/authservice-mern.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "dev": "node src/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@types/node": "^26.1.1",
-    "typescript": "^7.0.2"
-  }
+    "name": "authservice-mern",
+    "version": "1.0.0",
+    "description": "Auth Service",
+    "homepage": "https://github.com/mukaramawan/authservice-mern#readme",
+    "bugs": {
+        "url": "https://github.com/mukaramawan/authservice-mern/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mukaramawan/authservice-mern.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node src/server.js",
+        "format:check": "npx prettier . --check",
+        "format:fix": "npx prettier . --write",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/node": "^26.1.1",
+        "prettier": "3.9.6",
+        "typescript": "^7.0.2"
+    }
 }
