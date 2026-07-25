@@ -2,7 +2,8 @@ function helloWorld(msg: string) {
     const name = {
         name: 'Mukaram',
     };
-    console.log('Hello ' + name.name + ' ' + msg);
+    return name.name + ' ' + msg;
+    // console.log('Hello ' + name.name + ' ' + msg);
 }
 
 helloWorld('Good Morning');
